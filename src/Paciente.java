@@ -40,6 +40,26 @@ public class Paciente {
         return jaula;
     }
 
+    public String getTipo() {
+        return "Paciente";
+    }
+
+    public int getNivelEstres() {
+        return 0;               // solo el gato lo cambia
+    }
+
+    public void subirEstres() {
+        // solo el gato lo cambia
+    }
+
+    public float getEnvergadura() {
+        return 0; // solo el ave lo cambia
+    }
+
+    public void marcarVacunado() {
+        // solo el perro lo cambia
+    }
+
     // Setters
 
     public boolean setNombre(String nombre) {
